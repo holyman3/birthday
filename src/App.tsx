@@ -3,57 +3,46 @@ import './App.css'
 
 const cards = [
   {
-    emoji: '🎂',
     heading: 'Happy Birthday',
-    text: "Today is all about you — and I hope it's filled with everything that makes you smile. You deserve a day as bright and lovely as you are.",
+    text: "Today is all about you and I hope it's filled with everything that makes you smile. You deserve a day as bright and lovely as you are.",
   },
   {
-    emoji: '🌸',
     heading: 'Your Smile',
     text: 'You have this smile that makes everything feel lighter. I hope you share it as often as possible.',
   },
   {
-    emoji: '✨',
     heading: 'Truly One of a Kind',
-    text: "There's something about you that I can't quite put into words—a quiet magic that sets you apart from everyone else.",
+    text: "There's something about you that I can't quite put into words, a quiet magic that sets you apart from everyone else.",
   },
   {
-    emoji: '🎀',
     heading: 'Your Style',
-    text: 'The way you dress, the way you carry yourself—it’s like every little detail is perfectly you. I notice.',
+    text: 'The way you dress, the way you carry yourself, it’s like every little detail is perfectly you. I notice.',
   },
   {
-    emoji: '💖',
     heading: 'Your Eyes',
     text: "I could get lost in your eyes. They're warm, kind, and they seem to hold a thousand untold stories.",
   },
   {
-    emoji: '🌙',
-    heading: 'Shy & Sweet',
-    text: 'Your quietness isn’t a wall—it’s a garden. I hope one day you’ll let me walk through it.',
+    heading: 'Every Little Detail',
+    text: "I remember the things you say, the small phrases. And those shy little smiles while you play with your hair. They stay with me longer than you'd ever guess. I notice it all, because it's you.",
   },
   {
-    emoji: '🍰',
+    heading: 'Shy & Sweet',
+    text: 'Your quietness isn’t a wall, it’s a garden. I hope one day you’ll let me walk through it.',
+  },
+  {
     heading: 'Your Hair',
     text: "I don't know if you realize how beautiful your hair is. It frames your face like a painting I could stare at all day.",
   },
   {
-    emoji: '🧸',
     heading: 'So Interesting',
-    text: "Every time we talk, I wanna know something new. You're like a book I can't put down—and I've only just started reading.",
+    text: "Every time we talk, I wanna know something new. You're like a book I can't put down and I've only just started reading.",
   },
   {
-    emoji: '💌',
     heading: 'A Quiet Thought',
-    text: "Sometimes I catch myself thinking about you at random moments. I don't mind—it's a nice way to spend a daydream.",
+    text: "So many times I catch myself thinking about you. I don't mind, it's a nice way to spend a daydream.",
   },
   {
-    emoji: '🌈',
-    heading: 'Your Presence',
-    text: "You bring color into a room just by being there. It's not loud or flashy—just a gentle warmth that makes people feel at home.",
-  },
-  {
-    emoji: '🎁',
     heading: 'Looking Forward',
     text: "Every time I see you, my day gets a lot better. I'm already looking forward to the next time.",
   },
@@ -87,7 +76,7 @@ function App() {
             </button>
           ) : (
             <button className="next-btn" onClick={restart}>
-              Start Again!
+              Once More!
             </button>
           )}
         </div>
