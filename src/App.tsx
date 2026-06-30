@@ -87,7 +87,7 @@ function App() {
       </div>
 
       <div className="hearts">
-        {[...Array(75)].map((_, i) => {
+        {[...Array(50)].map((_, i) => {
           const number = Math.random()
           const isHeart = number < 0.33
           const isHeart2 = number > 0.33 && number < 0.66
@@ -101,7 +101,7 @@ function App() {
                 fontSize: `${Math.random() * 20 + 10}px`,
                 opacity: Math.random() * 0.5 + 0.1,
               }}>
-              {isHeart ? '💗' : isHeart2 ? '🌸' : '🩷'}
+              {isHeart ? '💗' : isHeart2 ? '🌸' : '💕'}
             </div>
           )
         })}
