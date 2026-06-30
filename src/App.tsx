@@ -71,8 +71,7 @@ function App() {
     <div className="app">
       <div className="card" key={current}>
         <h2 className="heading">{card.heading}</h2>
-        <p className="text">{card.text}</p>
-
+        {card.text ? <p className="text">{card.text}</p> : <div className="forSpacing"></div>}
         <div className="buttons">
           {current < cards.length - 1 ? (
             <button className="next-btn" onClick={nextCard}>
