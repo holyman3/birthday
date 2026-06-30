@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-import Splash from './Splash'
+import { useState } from 'react'
 import './App.css'
 
 const cards = [
@@ -63,14 +62,6 @@ const cards = [
 function App() {
   const [current, setCurrent] = useState(0)
 
-  const [splashVisible, setSplashVisible] = useState(true)
-
-  // Auto‑hide splash after 4 seconds (matches CSS animation end)
-  useEffect(() => {
-    const timer = setTimeout(() => setSplashVisible(false), 4000)
-    return () => clearTimeout(timer)
-  }, [])
-
   const nextCard = () => {
     if (current < cards.length - 1) {
       setCurrent(current + 1)
@@ -85,7 +76,6 @@ function App() {
 
   return (
     <div className="app">
-      {splashVisible && <Splash />}
       <div className="card" key={current}>
         <h2 className="heading">{card.heading}</h2>
         <p className="text">{card.text}</p>
