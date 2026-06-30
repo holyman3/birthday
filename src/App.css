@@ -12,6 +12,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 500px;
+  margin-bottom: 80px;
   padding: 20px;
 }
 

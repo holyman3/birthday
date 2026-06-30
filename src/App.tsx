@@ -3,7 +3,7 @@ import './App.css'
 
 const cards = [
   {
-    heading: 'Happy Birthday',
+    heading: 'Happy Birthday Loo',
     text: "Today is all about you and I hope it's filled with everything that makes you smile. You deserve a day as bright and lovely as you are.",
   },
   {
@@ -45,6 +45,10 @@ const cards = [
   {
     heading: 'Looking Forward',
     text: "Every time I see you, my day gets a lot better. I'm already looking forward to the next time.",
+  },
+  {
+    heading: 'ժպտա Գեղեցկուհի Լուիզա 😁',
+    text: '',
   },
 ]
 
